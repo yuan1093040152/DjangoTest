@@ -24,7 +24,7 @@ print d
 
 #判断
 # if False:
-#     print ('1111111')
+#     print ('111111111')
 # else:
 #     print ('2222222')
 #
