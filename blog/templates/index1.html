@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<h1>
+    <a href="">新增</a>
+</h1>
+
+{% for article in articles %}
+    <a href="{% url 'article_page' article.id %}">{{ article.title }}</a>
+    <br/>
+
+{% endfor %}
+
+
+</body>
+</html>
